@@ -1,0 +1,11 @@
+# Track only Sophon/; hide everything else at repo root
+/*
+!/.gitignore
+!/Sophon/
+
+# Keep model weights and caches local
+/Sophon/checkpoints/
+/Sophon/**/*.pt
+/Sophon/__pycache__/
+/Sophon/.ipynb_checkpoints/
+/Sophon/**/__pycache__/
