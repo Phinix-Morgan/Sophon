@@ -1,6 +1,7 @@
 # Track only Sophon/; hide everything else at repo root
 /*
 !/.gitignore
+!/README.md
 !/Sophon/
 
 # Keep model weights and caches local
